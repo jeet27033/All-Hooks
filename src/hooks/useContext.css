@@ -1,0 +1,20 @@
+.panel-light {
+    background-color: white;
+    color: black;
+  }
+  
+  .panel-dark {
+    background-color: black;
+    color: white;
+  }
+  
+  .button-light {
+    background-color: #f0f0f0;
+    color: black;
+  }
+  
+  .button-dark {
+    background-color: #333;
+    color: white;
+  }
+  
