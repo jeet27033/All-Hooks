@@ -7,6 +7,7 @@ import { UseRefDemo } from './hooks/useRefDemo';
 import { UseReducerDemo } from './hooks/useReducerDemo';
 import { UseCallbackDemo } from './hooks/useCallbackDemo';
 import { UseMemoDemo } from './hooks/useMemoDemo';
+import {UseLayoutEffectDemo} from "./hooks/useLayoutEffectDemo"
 import "./App.css"
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <UseReducerDemo/>
       <UseCallbackDemo/>
       <UseMemoDemo/>
+      <UseLayoutEffectDemo/>
     </div>
   );
 }

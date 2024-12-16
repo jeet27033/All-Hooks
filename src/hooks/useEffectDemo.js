@@ -8,8 +8,6 @@ export const UseEffectDemo = () => {
         const interval = setInterval(() => {
             setTime(new Date().toLocaleTimeString());
         }, 1000);
-
-        return () => clearInterval(interval); 
     }, []);
 
     useEffect(() => {
